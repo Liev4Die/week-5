@@ -1,4 +1,4 @@
-.menu{
+nav ul{	
 	list-style-type: none;
 	margin: 0;
 	padding: 12;
@@ -10,7 +10,7 @@
 	font-size: 36px;
 }
 
-.menu li{
+nav li{
 	display: inline-block;
 }
 
@@ -28,35 +28,33 @@ li a:hover{
 	background-color: #111111;
 }
 
-#title {
+h1 {
 	margin-left: 500px;
 	margin-right: 500px;
 	padding-bottom: 20px;
 	border-bottom: 1px solid black;
-		font-size: 36px;
+	font-size: 36px;
 }
 
-.title1{
+h2{
 	margin-left: 500px;
-		font-size: 36px;
+	font-size: 36px;
 }
 
-.text{
+p{
 	margin-left: 500px;
 	margin-right: 500px;
 	font-size: 20px;
 
 }
 
-#text{
+ol{
 	margin-left: 500px;
 	margin-right: 500px;
-	background-color: lightblue;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	font-size: 20px;
 }
 
-.list{
+ul{
 	margin-left: 500px;
 	background-color: white;
 	font-size: 20px;
@@ -68,4 +66,12 @@ ol li{
 
 img{
 	margin-left: 500px;
+}
+
+footer p{
+	margin-left: 500px;
+	margin-right: 500px;
+	background-color: lightblue;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
